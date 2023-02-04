@@ -25,5 +25,5 @@ export const FriendList = ({ friends }) => (
 );
 
 FriendList.propTypes = {
-  friends: array,
+  friends: PropTypes.array,
 };
